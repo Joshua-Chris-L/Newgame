@@ -49,6 +49,8 @@ else:
 
 """
 ##### Black Jack  Game 
+
+""" 
 import random
 cards = [11,2,3,4,5,6,7,8,9,10,10,10]
 your_cards = random.sample(cards, 2)
@@ -78,4 +80,14 @@ else:
         print(f"You win, Computer card is {computer_guess}. You have the jackpot.")
     else:
         print(f"You lost. Computer card is  {your_new_cards} and Computer card is {sum_c}")
+"""
+def is_prime(num):
+    for i in range(2, num):
+        if (num % i) == 0:
+            print("False")
+            break
+    else:
+        print("True")
+#print(False)
 
+is_prime() 
