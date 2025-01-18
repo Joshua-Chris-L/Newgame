@@ -1,0 +1,82 @@
+
+""" 
+from turtle import Turtle, Screen
+timmy = Turtle()
+my_screen = Screen()
+print(timmy)
+timmy.shape("turtle")
+timmy.color("coral")
+timmy.forward(100)
+print(my_screen.canvwidth)
+my_screen.exitonclick()
+"""
+
+
+""" 
+from prettytable import PrettyTable
+table = PrettyTable()
+
+table.add_column("Pokemon Name",
+["Pikachu","Squirtle","Charmander"])
+table.add_column("Type",
+["Electric","Water","Fire"])
+table.align = "l"
+print(table)
+"""
+
+""" 
+class User:
+    def __init__(self, user_id, username):
+        self.user_id = user_id
+        self.username = username
+        self.followers = 0
+        self.following = 0
+
+    def follow(self, user):
+        user.followers +=1
+        self.following +=1
+
+user_1 = User("001", "Joshua") 
+user_2 = User("002", "Phanuel")
+
+user_2.follow(user_1)
+
+print(user_1.following)
+print(user_1.followers)
+print(user_2.followers)
+print(user_2.following)
+
+#user_1.follow(user_2)
+#user_2.follow(user_1)
+#print(user_1.follow(user_2))
+"""
+# Question Bank Game!
+
+from data import question_data
+
+class QuestionGame:
+    def __init__(self, question_data):
+        self.data = question_data 
+
+    def Question_bank(self):
+        for ques in self.data:
+            new_question = ques["text"]
+            print(ques["text"])
+
+    
+
+questions = QuestionGame(question_data)
+questions.Question_bank()
+
+
+
+
+
+
+
+
+
+
+
+
+

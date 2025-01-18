@@ -81,6 +81,8 @@ else:
     else:
         print(f"You lost. Computer card is  {your_new_cards} and Computer card is {sum_c}")
 """
+
+""" 
 def is_prime(num):
     for i in range(2, num):
         if (num % i) == 0:
@@ -91,3 +93,6 @@ def is_prime(num):
 #print(False)
 
 is_prime() 
+
+"""
+

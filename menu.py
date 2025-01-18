@@ -1,0 +1,3 @@
+class MenuItem:
+    name = r
+
