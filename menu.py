@@ -1,3 +1,2 @@
 class MenuItem:
-    name = r
-
+    pass
